@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.samplearch"
+4    android:versionCode="1"
+5    android:versionName="1.0.0.0-debug" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:6:5-8:35
+12        android:name="android.hardware.camera"
+12-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:7:9-47
+13        android:required="true" />
+13-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:8:9-32
+14
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:10:5-79
+15-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:11:5-67
+16-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:12:5-65
+17-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:12:22-62
+18    <uses-permission
+18-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:13:5-15:40
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:13:22-78
+20        android:maxSdkVersion="28" />
+20-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:14:9-35
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:16:5-80
+21-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:16:22-77
+22
+23    <application
+23-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:18:5-49:19
+24        android:name="com.example.samplearch.SampleApplication"
+24-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:19:9-64
+25        android:allowBackup="true"
+25-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:20:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.8.0] /Users/mohamedabolela/.gradle/caches/transforms-3/826d50eb9014718bded239131c17c1d1/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:21:9-43
+29        android:label="@string/app_name"
+29-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:22:9-41
+30        android:requestLegacyExternalStorage="true"
+30-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:25:9-52
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:23:9-54
+32        android:supportsRtl="true"
+32-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:24:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.SampleArch" >
+34-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:26:9-48
+35        <provider
+36            android:name="androidx.core.content.FileProvider"
+36-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:29:13-62
+37            android:authorities="com.example.samplearch.provider"
+37-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:30:13-60
+38            android:exported="false"
+38-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:31:13-37
+39            android:grantUriPermissions="true" >
+39-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:32:13-47
+40            <meta-data
+40-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:33:13-35:58
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:34:17-67
+42                android:resource="@xml/provider_paths" />
+42-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:35:17-55
+43        </provider>
+44
+45        <activity
+45-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:40:9-48:20
+46            android:name="com.example.samplearch.MainActivity"
+46-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:42:13-41
+47            android:exported="true" >
+47-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:41:13-36
+48            <intent-filter>
+48-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:43:13-47:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:44:17-69
+49-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:44:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:46:17-77
+51-->/Users/mohamedabolela/AndroidStudioProjects/RobustaTask/app/src/main/AndroidManifest.xml:46:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] /Users/mohamedabolela/.gradle/caches/transforms-3/8491ae3f6825e0c96a39cd9016a7d6e3/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+61
+62        <service
+62-->[androidx.room:room-runtime:2.4.1] /Users/mohamedabolela/.gradle/caches/transforms-3/969e8c7c49a1df880b7652784cf590d5/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
+63            android:name="androidx.room.MultiInstanceInvalidationService"
+63-->[androidx.room:room-runtime:2.4.1] /Users/mohamedabolela/.gradle/caches/transforms-3/969e8c7c49a1df880b7652784cf590d5/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
+64            android:directBootAware="true"
+64-->[androidx.room:room-runtime:2.4.1] /Users/mohamedabolela/.gradle/caches/transforms-3/969e8c7c49a1df880b7652784cf590d5/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
+65            android:exported="false" />
+65-->[androidx.room:room-runtime:2.4.1] /Users/mohamedabolela/.gradle/caches/transforms-3/969e8c7c49a1df880b7652784cf590d5/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
+66    </application>
+67
+68</manifest>

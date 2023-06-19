@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:label="fragmentHome"
+        android:name="com.example.samplearch.home.presentation.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentAddNewPhoto"
+            app:destination="@id/addNewPhotoFragment" />
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentFullScreen"
+            app:destination="@id/fullScreenFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNewPhotoFragment"
+        android:label="fragmentDetails"
+        android:name="com.example.samplearch.addPhoto.presentation.AddNewPhotoFragment"
+        tools:layout="@layout/fragment_add_new_photo"/>
+
+    <fragment
+        android:id="@+id/fullScreenFragment"
+        android:label="fragmentFullScreen"
+        android:name="com.example.samplearch.fullScreen.presentation.FullScreenFragment"
+        tools:layout="@layout/fragment_full_screen">
+
+        <argument android:name="imageItem"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true"/>
+
+    </fragment>
+
+</navigation>
